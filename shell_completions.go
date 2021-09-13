@@ -1,8 +1,6 @@
 package cobra
 
-import (
-	"github.com/spf13/pflag"
-)
+import "github.com/cdoern/pflag"
 
 // MarkFlagRequired instructs the various shell completion implementations to
 // prioritize the named flag when performing completion,

@@ -32,7 +32,7 @@ func main() {
 Cobra provides its own program that will create your application and add any
 commands you want. It's the easiest way to incorporate Cobra into your application.
 
-[Here](https://github.com/spf13/cobra/blob/master/cobra/README.md) you can find more information about it.
+[Here](https://github.com/cdoern/cobra/blob/master/cobra/README.md) you can find more information about it.
 
 ## Using the Cobra Library
 
@@ -76,7 +76,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/spf13/cobra"
+	"github.com/cdoern/cobra"
 	"github.com/spf13/viper"
 )
 
@@ -171,7 +171,7 @@ package cmd
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/cdoern/cobra"
 )
 
 func init() {
@@ -198,7 +198,7 @@ package cmd
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/cdoern/cobra"
 )
 
 func init() {
@@ -345,7 +345,7 @@ by not providing a 'Run' for the 'rootCmd'.
 
 We have only defined one flag for a single command.
 
-More documentation about flags is available at https://github.com/spf13/pflag
+More documentation about flags is available at https://github.com/cdoern/pflag
 
 ```go
 package main
@@ -354,7 +354,7 @@ import (
   "fmt"
   "strings"
 
-  "github.com/spf13/cobra"
+  "github.com/cdoern/cobra"
 )
 
 func main() {
@@ -521,7 +521,7 @@ package main
 import (
   "fmt"
 
-  "github.com/spf13/cobra"
+  "github.com/cdoern/cobra"
 )
 
 func main() {
